@@ -1,0 +1,17 @@
+/* Estilos CSS */
+.calendar-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .calendar-week {
+    width: calc(100% / 7);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .calendar-day {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  

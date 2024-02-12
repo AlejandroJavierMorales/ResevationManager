@@ -1,5 +1,7 @@
-.title{
-    color:tomato;
-    font-size: 2.2rem;
-    font-weight: 400;
+
+.animatedButton{
+   /*  width: 500px !important;
+    height: 500px !important; */
+    height: 500px;
+    font-size: 1.5rem;
 }

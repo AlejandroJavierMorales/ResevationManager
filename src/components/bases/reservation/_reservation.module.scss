@@ -1,0 +1,59 @@
+@import '../../../styles//sass//variables';
+
+
+.container {
+
+    .title {
+        font-size: $fontsize-title;
+        color: $text-color-title;
+        border: $border-color-title 2;
+        border-radius: 5px;
+    }
+
+    .custom_table_container {
+        max-width: 95vw;
+
+        .tableStyle {
+            max-height: 10vh;
+            overflow-y: scroll;
+            overflow-x: scroll;
+
+            .fontStyleHeader {
+                font-style: italic;
+                font-size: 1rem;
+                white-space: nowrap;
+
+                .mouseHover {
+                    cursor: pointer;
+                }
+            }
+
+            .fontStyleBody {
+                font-size: 0.8rem;
+                white-space: nowrap;
+
+                .mouseHover {
+                    cursor: pointer;
+                }
+            }
+
+        }
+
+    }
+
+    .totalizers {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 0.8rem;
+        background-color: #dfe2e4;
+        color: rgb(80, 80, 80);
+        border-radius: 5px;
+        padding: 4px;
+        width:130px;
+        height:50px;
+    }
+
+
+}

@@ -1,0 +1,28 @@
+@import '../../styles/sass/variables';
+
+.reservationsCrudFormContainer {
+    .titleForm {
+        color: rgb(41, 37, 37);
+    }
+
+    .closeContainer {}
+
+    .formMain {
+        .labelInputForm {
+            font-size: 0.8rem;
+            font-weight: 400;
+        }
+
+        input {}
+
+    }
+
+}
+form label{
+    font-size: 0.7rem;
+    padding: 0px !important;
+}
+form input{
+    font-size: 0.9rem;
+    padding: 2px !important;
+}

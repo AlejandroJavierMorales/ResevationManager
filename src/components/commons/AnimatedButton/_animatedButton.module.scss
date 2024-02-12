@@ -1,0 +1,14 @@
+.animatedButton {
+    padding: 10px 20px;
+    background-color: #dfe2e4;
+    color: rgb(80, 80, 80);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 100%;
+    box-shadow: 10px 10px 10px #c0bebf;
+  }
+  
+  .animating {
+    pointer-events: none;
+  }
